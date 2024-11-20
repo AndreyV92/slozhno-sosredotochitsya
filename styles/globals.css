@@ -33,10 +33,21 @@ picture {
   padding: 0;
 }
 
+button {
+  border: none;
+  background-color: inherit;
+}
+
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
