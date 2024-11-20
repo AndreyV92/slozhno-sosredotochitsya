@@ -428,7 +428,6 @@
   .footer__title {
     font-size: var(--size-mobile);
   }
-  
 }
 
 @media (max-width: 375px) {
@@ -437,6 +436,5 @@
     grid-template-rows: 228px 192px 228px;
     min-block-size: 668px;
     block-size: 100vh;
+  }
 }
-}
-
