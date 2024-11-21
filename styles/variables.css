@@ -9,8 +9,7 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --main-bg-color: #000028;
-  --main-font: "IBM Plex mono-Regular";
-  --main-font-bold: "IBM Plex mono-Bold";
+  --main-font: "IBM-Plex";
   --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-font-size: 18px;

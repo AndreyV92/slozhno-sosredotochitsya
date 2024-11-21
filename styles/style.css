@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--main-font), sans-serif;
-  font-weight: 400;
+  font-family: "IBM-Plex";
+  font-weight: 700;
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
   background-color: var(--main-bg-color);
@@ -76,7 +76,7 @@
   font-family: inherit;
   width: 70px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 100%;
   background-color: transparent;
   padding: 1.5px 13px 3px 13px;
@@ -149,15 +149,10 @@
   background-color: var(--accent-color);
   color: var(--sub-title-color);
   font-weight: 700;
-  /* margin-bottom: 10px; */
 }
 
 .title-decor_double-mb {
   margin-bottom: var(--main-gap);
-}
-
-.title-decor_light {
-  font-weight: 400;
 }
 
 /* focus */
@@ -208,7 +203,7 @@
 
 .focus-info__link:hover {
   text-decoration: underline;
-  text-decoration-color: var(--menu-text-color);
+  text-decoration-color: rgba(255, 0, 112, 0.4);
 }
 
 .boxes {
@@ -245,7 +240,6 @@
   grid-template-rows: repeat(3, auto);
   grid-auto-flow: dense;
   gap: 20px;
-  grid-auto-flow: dense;
 }
 
 .images__item-1 {
@@ -336,9 +330,6 @@
     grid-column: 2;
     max-width: 491px;
     line-height: var(--text-line-height);
-  }
-  .title-decor_top {
-    padding-right: 60px;
   }
 
   .focus-box {
@@ -460,7 +451,8 @@
   .header__title {
     grid-column: 1 / -1;
     font-size: var(--size-mobile);
-    line-height: 86%;
+    line-height: 84%;
+    margin-left: 0;
   }
 
   .title-decor_top {
@@ -475,7 +467,6 @@
 
   .info-title {
     margin-bottom: 0px;
-    padding-right: 10px;
   }
   .focus-box {
     margin-bottom: 48px;
