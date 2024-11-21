@@ -1,7 +1,5 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  font-family: "IBM-Plex";
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
@@ -14,7 +12,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  /* сохраните в раpxзметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .container {
@@ -94,12 +91,8 @@
   border-bottom: 1px solid var(--menu-text-color);
 }
 
-.active {
-  padding: 1.5px 13px 3px 13px;
-  border: 1px solid var(--border-color);
-}
-
 .header__theme-menu-button_active {
+  border: 1px solid var(--border-color);
   pointer-events: none;
 }
 
@@ -183,7 +176,7 @@
 }
 
 .info-title {
-  color: var(--accent-color);
+  color: var(--info-color);
   font-size: var(--text-font-size);
 }
 

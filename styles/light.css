@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   --bg-image: url("../images/cover-image-light.png");
   --title-color: #ffc2e6;
@@ -13,12 +7,6 @@
   --bg-color: #fff1f7;
   --border-color: #353430;
   --menu-text-color: #353430;
-  --main-font: "IBM Plex mono-Regular";
-  --main-font-bold: "IBM Plex mono-Bold";
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
 }
 
 .theme_light .header__theme-dark-decor {
@@ -31,11 +19,14 @@
     --title-color: #ffc2e6;
     --sub-title-color: #353430;
     --accent-color: #ff8dcb;
+    --info-color: #353430;
     --text-color: #353430;
     --bg-color: #fff1f7;
     --border-color: #353430;
     --menu-text-color: #353430;
-    --main-font: "IBM Plex mono-Regular";
-    --main-font-bold: "IBM Plex mono-Bold";
   }
+}
+
+.header__theme-dark-decor {
+  display: none;
 }
