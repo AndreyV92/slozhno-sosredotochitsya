@@ -157,8 +157,8 @@
 
 .focus-box {
   display: grid;
-  grid-template-columns: 315px auto;
-  gap: var(--main-gap);
+  grid-template-columns: 1fr 2fr;
+  gap: calc(var(--main-gap) / 2);
   margin-bottom: calc(var(--main-gap) * 3);
 }
 
@@ -173,8 +173,8 @@
 
 .recommendations {
   display: grid;
-  grid-template-columns: 315px auto;
-  gap: var(--main-gap);
+  grid-template-columns: 1fr 2fr;
+  gap: calc(var(--main-gap) / 2);
 }
 
 .concentration_title {
@@ -208,7 +208,7 @@
 }
 
 .focus-info__link:hover {
-  border-bottom: 1px solid var(--link-color) ;
+  border-bottom: 1px solid var(--link-color);
 }
 
 .boxes {
@@ -224,7 +224,7 @@
 
 .boxes__item-text {
   font-weight: var(--text-weight);
-  padding-bottom: calc(var(--main-gap) / 2) ;
+  padding-bottom: calc(var(--main-gap) / 2);
 }
 
 .concentration {
@@ -301,7 +301,7 @@
   font-size: var(--title-font-size);
   line-height: 83%;
   color: var(--title-color);
-  text-shadow: 2px 2px 0  #ff0070;
+  text-shadow: 2px 2px 0 #ff0070;
 }
 
 @media (max-width: 768px) {
@@ -337,7 +337,7 @@
   }
 
   .focus-box {
-    grid-template-columns: 236px auto;
+    gap: var(--main-gap);
   }
 
   .boxes {
@@ -352,7 +352,7 @@
   }
 
   .recommendations {
-    grid-template-columns: 236px auto;
+    gap: var(--main-gap);
   }
 
   .footer {
