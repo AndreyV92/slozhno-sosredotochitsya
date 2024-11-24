@@ -15,4 +15,6 @@
   --images-proportions: cover;
   --button-border-color: rgb(255, 0, 112, 0.4);
   --text-weight: 400;
+  --link-color: #ff0070;
+  --images-height: 100%;
 }
