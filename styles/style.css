@@ -169,10 +169,6 @@
   margin-bottom: calc(var(--main-gap) / 2);
 }
 
-.recomendations-title {
-  font-weight: 400;
-}
-
 .recomendations-info__text {
   font-weight: var(--text-weight);
 }
@@ -319,7 +315,8 @@
 }
 
 .recomendations-title {
-  margin-bottom: 10px;
+  font-weight: 400;
+  margin-bottom: calc(var(--main-gap) / 2);
 }
 
 /*  */
