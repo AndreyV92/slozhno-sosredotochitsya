@@ -5,11 +5,11 @@
   --accent-color: #ff8dcb;
   --text-color: #353430;
   --bg-color: #fff1f7;
+  --info-color: #353430;
   --border-color: #353430;
   --menu-text-color: #353430;
   --button-border-color: rgba(50, 49, 45, 0.4);
   --link-color: #353430;
-  --info-color: #353430;
 }
 
 .theme_light .header__theme-dark-decor {
@@ -28,6 +28,7 @@
     --border-color: #353430;
     --menu-text-color: #353430;
     --button-border-color: rgba(50, 49, 45, 0.4);
+    --link-color: #353430;
   }
   .theme_auto .header__theme-dark-decor {
     display: none

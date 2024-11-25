@@ -86,8 +86,11 @@
   border: 1px solid var(--button-border-color);
 }
 
-.header__theme-menu-button:focus-visible {
+.header__theme-menu-button:focus {
   outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--menu-text-color);
 }
 
@@ -152,14 +155,14 @@
 /* focus */
 
 .about {
-  margin-bottom: 59px;
+  margin-bottom: calc(var(--main-gap) * 4);
 }
 
 .focus-box {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: calc(var(--main-gap) / 2);
-  margin-bottom: calc(var(--main-gap) * 3);
+  margin-bottom: calc(var(--main-gap) * 4);
 }
 
 .focus-box_title {
@@ -168,7 +171,9 @@
 
 .focus-info__text {
   font-weight: var(--text-weight);
-  padding-bottom: calc(var(--main-gap) / 2);
+}
+.focus-info__text:not(:last-child) {
+  margin-bottom: calc(var(--main-gap) / 2);
 }
 
 .recommendations {
@@ -189,14 +194,11 @@
 .focus-info {
   display: flex;
   flex-direction: column;
-}
-
-.focus-info__box {
-  margin-bottom: calc(var(--main-gap) / 2);
+  gap: var(--main-gap);
 }
 
 .focus-info__text-mb {
-  margin-bottom: calc(var(--main-gap) / 2);
+  padding-bottom: calc(var(--main-gap) / 2);
 }
 
 .focus-info__link {
@@ -224,11 +226,14 @@
 
 .boxes__item-text {
   font-weight: var(--text-weight);
-  padding-bottom: calc(var(--main-gap) / 2);
+}
+
+.boxes__item-text:not(:last-child) {
+  margin-bottom: calc(var(--main-gap) / 2);
 }
 
 .concentration {
-  margin-bottom: 70px;
+  margin-bottom: calc(var(--main-gap) * 4);
 }
 
 .recommendations_title {
@@ -351,6 +356,14 @@
     margin-bottom: calc(var(--main-gap) / 2);
   }
 
+  .boxes__item {
+    margin-bottom: calc(var(--main-gap) / 2);
+  }
+
+  .concentration {
+    margin-bottom: 70px;
+  }
+
   .recommendations {
     gap: var(--main-gap);
   }
@@ -433,7 +446,7 @@
   }
 
   .decorated-zone::before {
-    top: 9px;
+    top: 10px;
     right: 10px;
   }
 
@@ -467,14 +480,14 @@
   }
 
   .focus-box {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .concentration {
     margin-bottom: calc(var(--main-gap) * 2);
   }
 
   .about {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .images-title {
